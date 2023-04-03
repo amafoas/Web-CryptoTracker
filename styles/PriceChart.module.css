@@ -1,0 +1,19 @@
+.chart_container {
+  border-radius: 10px;
+}
+
+.selector {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  font-weight: 600;
+  font-size: .9rem;
+  justify-content: center;
+  margin-bottom: .5em;
+  cursor: pointer;
+}
+
+.selected {
+  font-weight: bolder;
+  color: var(--golden-yellow);
+}

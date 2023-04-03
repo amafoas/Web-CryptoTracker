@@ -1,0 +1,23 @@
+.loading_btn {
+  margin: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  border: 2px solid #32CD32;
+  color: #32CD32;
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  width: 10em;
+}
+
+.loading_btn:hover {
+  background-color: #2DCD5C;
+  color: whitesmoke;
+}
+
+.loading_btn:disabled {
+  background-color: #B4CD9C;
+  border-color: #B4CD9C;
+  color: whitesmoke;
+  cursor: wait;
+}
